@@ -1,13 +1,271 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    font-weight: 62.5%
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    border: 1px solid rgb(248, 218, 248);
+    border-radius: 0.7rem;
+    margin: 0.5rem 42rem;
+    background-color: rgb(248, 218, 248)
+}
+
+.header h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    padding: 0.2rem;
+}
+
+.component {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.component1 {
+    width: 23.5rem;
+    margin: 1.5rem 0 0 10rem;
+    /* font-size: 0.65rem; */
+    /* border: 1px solid black; */
+}
+
+.ulItem {
+    list-style: none;
+    margin: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.liItem {
+    display: grid;
+    grid-template-columns: 1fr 11.5rem 1fr;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+    padding: 0.2rem;
+}
+
+.liItem img {
+    border-radius: 5rem;
+}
+
+.liItem p {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    position: relative;
+    top: 0.7rem;
+    font-weight: bold;
+    /* font-size:0.85rem; */
+}
+
+.liItem:hover {
+    border: 1px solid rgb(247, 206, 130);
+    border-radius: 0.3rem;
+    background-color: rgb(247, 206, 130);
+}
+
+button {
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 0.3rem;
+    width: 4.3rem;
+    height: 2rem;
+    font-weight: 600;
+    font-size: 0.77rem;
+    position: relative;
+    top: 1.1rem;
+    left: 0.3rem;
+    cursor: pointer;
+}
+
+.component2 button {
+    margin: 0 0 0 18.7rem;
+    width: 6rem;
+}
+
+.component3 {
+    margin: 2rem 0 0 11.5rem;
+    border: 1px solid black;
+    width: 20.3rem;
+    height: 14rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    font-size: 0.85rem;
+    border: 1px solid rgb(250, 211, 139);
+    background-color: rgb(250, 211, 139);
+    align-items: center;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.component3 label {
+    margin-left: 1rem;
+}
+
+.component3 input {
+    width: 10rem;
+    height: 1.8rem;
+    margin-top: 0.3rem;
+    margin-right: 1rem;
+    text-align: center;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    border-radius: 0.3rem;
+    outline: none;
+    position: relative;
+    bottom: 0.2rem;
+}
+
+.comp3 {
+    background-color: rgb(250, 211, 139);
+    width: 20.3rem;
+    height: 3.5rem;
+    margin-left: 11.5rem;
+    border-radius: 0 0 0.5rem 0.5rem
+}
+
+.comp3 button {
+    position: relative;
+    bottom: 4rem;
+    left: 11.7rem;
+}
+
+.component4 {
+    width: 21.5rem;
+    height: 20rem;
+    background-color: rgb(250, 211, 139);
+    margin: 1.5rem 0 0 0;
+    border: 1px solid rgb(250, 211, 139);
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+}
+
+.component4 h2 {
+    margin: 1.5rem 0 0 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.billValue {
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.billValue input {
+    width: 5.5rem;
+    height: 1.5rem;
+    border: 1px solid rgb(250, 211, 139);
+    background-color: #f7f7f7;
+    border-radius: 0.15rem;
+    position: relative;
+    left: 3.6rem;
+    padding: 0.8rem;
+    outline:none;
+    text-align: center;
+}
+
+.billValue input:focus {
+    border-color: orange;
+}
+
+.myExpense {
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.myExpense input {
+    width: 5.5rem;
+    height: 1.5rem;
+    border: 1px solid rgb(250, 211, 139);
+    background-color: #f7f7f7;
+    border-radius: 0.15rem;
+    position: relative;
+    left: 3.6rem;
+    padding: 0.8rem;
+    outline:none;
+    text-align: center;
+}
+
+.myExpense input:focus{
+    border-color: orange;
+}
+
+.friendExpense {
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.friendExpense label{   
+    font-size: 0.9rem;
+}
+
+.friendExpense span {
+    width: 5.5rem;
+    height: 1.5rem;
+    border: 1px solid #dbdad8;
+    background-color: #efeeeed5;
+    border-radius: 0.15rem;
+    position: relative;
+    left: 3.6rem;
+    padding: 0.2rem;
+    outline:none;
+    text-align: center;
+    font-weight:normal;
+}
+
+.payingBill {
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.payingBill select {
+    width: 5.5rem;
+    height: 1.5rem;
+    border: 1px solid rgb(250, 211, 139);
+    border-radius: 0.15rem;
+    position: relative;
+    left: 2.23rem;
+    text-align: center;
+    outline:none;
+    color:black;
+}
+
+/* .payingBill select:focus{
+    border-color: orange;
+} */
+
+.component4 button {
+    /* position: absolute;
+    left: 13.95rem;
+    width: 5.5rem;
+    height: 1.7rem;
+    bottom: 4rem;
+    left:50rem;
+    top:26.4rem; */
+    position: relative;
+    left: 14.15rem;
+    width: 5.5rem;
+    height: 1.7rem;
+    bottom: 4rem;
 }
