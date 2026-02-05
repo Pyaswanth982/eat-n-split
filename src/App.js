@@ -433,3 +433,7 @@ function Button({ item, name, image, urBalance, friendBalance, items, onHandleSe
 
 
 export default App;
+
+//Working Directory  --(git add)-->  Staging Area
+// Staging Area       --(git commit)--> Local Repository
+// Local Repository   --(git push)-->   GitHub (Remote)
