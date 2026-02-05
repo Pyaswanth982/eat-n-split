@@ -317,7 +317,7 @@ function Splitbill({ newItem, onHandleSelect }) {
 
 function Button({ item, name, image, urBalance, friendBalance, items, onHandleSelect, newItem, newSelectedItem, setName, setImage, setUrBalance, setBalanceFriend, children }) {
 
-  console.log(item);
+  // console.log(item);
   function handleSelect() {
     if (children === "Select" || children === "Close") {
 
