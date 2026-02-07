@@ -14,7 +14,7 @@ function App() {
 function Header() {
   return (
     <div className="header">
-      <h1>Eat-n-Split</h1>
+      <h1>Eat-n-Split Good Morning</h1>
     </div>
   );
 }
