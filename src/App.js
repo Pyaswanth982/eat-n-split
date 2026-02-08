@@ -15,7 +15,6 @@ function Header() {
   return (
     <div className="header">
       <h1>Eat-n-Split Good Morning Raju PR Request Raised</h1>
-      <h1>Eat-n-split PR Request raised again</h1>
     </div>
   );
 }
