@@ -15,11 +15,8 @@ function Header() {
   return (
     <div className="header">
       <h1>Eat-n-Split Good Morning Raju PR Request Raised</h1>
-<<<<<<< HEAD
-=======
       <h1>Eat-n-split PR request raised again to practive PR</h1>
-      <h1>Adding one new line</h1>
->>>>>>> 9823e25 (Update App.js)
+      <h1>Adding new line here1</h1>
     </div>
   );
 }
