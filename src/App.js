@@ -16,6 +16,8 @@ function Header() {
     <div className="header">
       <h1>Eat-n-Split Good Morning Raju PR Request Raised</h1>
       <h1>Eat-n-split PR request raised again to practive PR</h1>
+      <h1>feature-header added</h1>
+      <h1>Pull request</h1>
       <h1>Master added</h1>
     </div>
   );
