@@ -18,6 +18,7 @@ function Header() {
       <h1>Eat-n-split PR request raised again to practive PR</h1>
       <h1>feature-header added</h1>
       <h1>Pull request</h1>
+      <h1>Master added</h1>
     </div>
   );
 }
