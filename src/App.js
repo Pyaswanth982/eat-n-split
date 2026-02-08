@@ -19,6 +19,7 @@ function Header() {
       <h1>feature-header added</h1>
       <h1>Pull request</h1>
       <h1>Master added</h1>
+      <h1>Feature header code is stashed in the feature branch</h1>
     </div>
   );
 }
