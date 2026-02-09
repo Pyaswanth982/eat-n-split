@@ -20,6 +20,8 @@ function Header() {
       <h1>Pull request</h1>
       <h1>Master added</h1>
       <h1>Remote Changes</h1>
+      <h1>Local changes1</h1>
+      <h1>Local changes2</h1>
     </div>
   );
 }
