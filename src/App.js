@@ -19,9 +19,6 @@ function Header() {
       <h1>feature-header added</h1>
       <h1>Pull request</h1>
       <h1>Master added</h1>
-      <h1>Hi</h1>
-      <h1>local change 1</h1>
-      <h1>local change 2</h1>
     </div>
   );
 }
