@@ -19,6 +19,7 @@ function Header() {
       <h1>feature-header added</h1>
       <h1>Pull request</h1>
       <h1>Master added</h1>
+      <h1>reset command + mixed</h1>
     </div>
   );
 }
